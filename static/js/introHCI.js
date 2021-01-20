@@ -39,7 +39,6 @@ function projectClick(e){
 		*/
 
 		
-		
 
   	 	var containingProject = $(this).closest(".project");
     	var description = $(containingProject).find(".project-description");
@@ -50,7 +49,7 @@ function projectClick(e){
     	else {
        		//description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
        		
-       		$(".project-description").fadeToggle();
+       		description.fadeToggle();
 
     	}
     	
